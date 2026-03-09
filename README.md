@@ -1,7 +1,3 @@
-# Pitch – TCC
-
-Nosso TCC nasce de um problema real e urgente:
-
 ## 🚨 Problema
 
 As falhas de comunicação no SUS e a subjetividade presente nos processos de triagem.
