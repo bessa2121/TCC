@@ -1,0 +1,8 @@
+PROBLEMA 1: O acúmulo de estresse, ansiedade e nervosismo dos alunos da ETEC Camargo Aranha (por conta de provas, vestibulares, pressão), promovendo reações e consequências negativas
+para o ambiente escolar, como por exemplo: alguém se machucar, a morte de alunos por conta de doenças relacionadas a saúde mental e bem-estar, alunos prejudicados por estarem precisando de ajuda, etc.
+Esse problema está diretamente relacionado à ODS 3 da ONU, focada em Bem-Estar e Saúde de todos.
+
+Estou recolhendo respostas no formulário para validar o tema completamente
+
+Proposta de intervenção: A criação de um sistema mobile gamificado que monitore o emocional dos alunos diariamente, utilizando ferramentas como: Check-in diário do humor, missões de bem-estar, painel do gestor (assim os professores
+podem intervir e mudar o planejamento da aula), Ranking de autocuidado
