@@ -1,92 +1,150 @@
-## 🚨 Problema
+# Portaria Digital — MVP
 
-As falhas de comunicação no SUS e a subjetividade presente nos processos de triagem.
-
-Hoje, informações descentralizadas, ruídos na comunicação entre setores e critérios muitas vezes interpretativos comprometem a eficiência do atendimento e impactam diretamente a vida do paciente.
-
-Como devs, enxergamos essa dor como uma oportunidade de transformação.
+Sistema web de **controle de acesso para condomínios residenciais**, desenvolvido como Trabalho de Conclusão de Curso (TCC) na ETEC.  
+O projeto digitaliza o registro de visitantes na portaria, permitindo que moradores autorizem entradas em tempo real e síndicos consultem históricos.
 
 ---
 
-## 💡 Proposta
+## 🚪 Problema
 
-Nosso projeto propõe uma solução tecnológica que:
+A maioria dos condomínios ainda utiliza **cadernos físicos** para registrar visitantes, sem rastreabilidade digital.  
+Isso gera falhas graves de segurança:
 
-- Padroniza a triagem  
-- Implementa uma **pré-triagem digital**  
-- Reduz a subjetividade por meio de critérios estruturados  
-- Melhora o fluxo de comunicação entre profissionais e unidades de atendimento  
+- Morador não sabe quem entrou
+- Síndico não tem relatórios
+- Registros podem ser perdidos ou adulterados
 
-Além disso, o sistema integra **políticas e diretrizes do SUS**, informando:
-
-- Quais documentos e prescrições são aceitos  
-- O que o paciente precisa levar para cada tipo de exame  
-- Orientações prévias para realização de procedimentos  
+> **68 milhões de brasileiros** vivem em condomínios — o mercado potencial é enorme.
 
 ---
 
 ## 🎯 Objetivo
 
-Através de:
+Construir um sistema web que permita:
 
-- Dados organizados  
-- Protocolos digitalizados  
-- Apoio à decisão  
-
-Buscamos tornar o processo mais ágil, transparente e assertivo, contribuindo para um atendimento mais justo, eficiente e baseado em informação.
-
-Nosso objetivo é usar tecnologia para fortalecer o SUS, otimizar recursos e colocar o paciente no centro da decisão.
+- Registro digital de visitantes com foto
+- Notificação em tempo real ao morador
+- Autorização ou recusa de entrada pelo sistema
+- Histórico consultável de acessos para o síndico
 
 ---
 
-# 📋 Protocolos de Triagem
+## 👥 Perfis de Usuário
 
-## 🔴 Protocolo de Manchester
-
-O mais utilizado no Brasil, inclusive no SUS.
-
-**Características:**
-
-- Baseado em fluxogramas clínicos por queixa principal  
-- Utiliza discriminadores objetivos (dor intensa, alteração de consciência, sinais vitais, etc.)  
-- Classificação por cores com tempo máximo de espera  
-
-**Classificação:**
-
-- 🔴 Vermelho – atendimento imediato  
-- 🟠 Laranja – muito urgente  
-- 🟡 Amarelo – urgente  
-- 🟢 Verde – pouco urgente  
-- 🔵 Azul – não urgente  
-
-👉 Funciona como um questionário guiado, onde cada resposta direciona o profissional para a classificação final.
+- **Porteiro** → registra visitantes e saída
+- **Morador** → autoriza ou recusa entrada
+- **Síndico** → consulta histórico completo
 
 ---
 
-## 🟡 Protocolo de Acolhimento com Classificação de Risco
+## 🛠️ Stack Tecnológica
 
-Diretriz do próprio SUS.
-
-**Baseado em:**
-
-- Política Nacional de Humanização  
-
-**Avalia:**
-
-- Risco  
-- Vulnerabilidade  
-- Gravidade  
-
-Pode variar entre municípios e considera não apenas a queixa clínica, mas também o contexto do paciente.
+- **Frontend:** React 18, React Router, Axios, SockJS + StompJS, Context API  
+- **Backend:** Spring Boot 3, Spring Security + JWT, WebSocket STOMP, Spring Data JPA, JavaMailSender  
+- **Banco:** MySQL 8 + Flyway migrations  
 
 ---
 
-## 🟠 Emergency Severity Index (ESI)
+## 📐 Escopo do MVP
 
-Muito utilizado nos Estados Unidos.
+- Login com JWT  
+- Cadastro de moradores, unidades e porteiros  
+- Registro de visitantes com foto via webcam  
+- Notificação em tempo real ao morador (WebSocket)  
+- Autorização/recusa pelo morador  
+- Histórico consultável pelo síndico  
 
-**Características:**
+> **Critério de sucesso:** ciclo completo funcionando de ponta a ponta.
 
-- Classificação de nível 1 a 5  
-- Combina gravidade + previsão de recursos necessários  
-- Utiliza algoritmo estruturado de decisão  
+---
+
+## 🗂️ Banco de Dados
+
+Principais tabelas:
+
+- `USUARIOS` (moradores, porteiros, síndico)  
+- `UNIDADES` (bloco, número, morador vinculado)  
+- `VISITANTES` (dados pessoais + foto)  
+- `REGISTROS_ACESSO` (entrada, saída, decisão)  
+- `CONSENTIMENTOS_LGPD` (prazo de retenção e consentimento explícito)
+
+---
+
+## 🔌 API REST
+
+### Autenticação
+- `POST /auth/login` → retorna JWT  
+- `POST /auth/logout` → invalida token  
+
+### Usuários e Unidades
+- `GET /usuarios` → lista usuários (síndico)  
+- `POST /usuarios` → cria morador ou porteiro  
+- `GET /unidades` → lista unidades  
+- `POST /unidades` → cria unidade  
+
+### Visitantes
+- `POST /visitantes` → cria visitante + upload foto  
+- `GET /visitantes/{id}` → busca visitante  
+
+### Registros de Acesso
+- `POST /acessos` → registra entrada  
+- `PUT /acessos/{id}/autorizar` → morador autoriza  
+- `PUT /acessos/{id}/recusar` → morador recusa  
+- `PUT /acessos/{id}/saida` → porteiro registra saída  
+- `GET /acessos` → histórico com filtros (síndico)  
+- `GET /acessos/minha-unidade` → histórico do morador  
+- `GET /acessos/{id}` → detalhe de um registro  
+
+---
+
+## 📅 Roadmap (Sprints)
+
+1. **Sprint 1 (Semanas 1-6):** autenticação, cadastros e banco  
+2. **Sprint 2 (Semanas 7-12):** registro de visitante e captura de foto  
+3. **Sprint 3 (Semanas 13-18):** WebSocket e decisão do morador  
+4. **Sprint 4 (Semanas 19-24):** histórico, ajustes e demo final  
+
+---
+
+## 👨‍💻 Divisão do Time
+
+- **M1 (Back-end Tech Lead):** Spring Boot, Security, JWT  
+- **M2 (Back-end):** WebSocket, endpoints de acesso, upload de foto  
+- **M3 (Front-end Porteiro):** formulário, webcam, SockJS/StompJS  
+- **M4 (Front-end Morador/Síndico):** notificações, histórico, filtros  
+- **M5 (Banco + QA + Docs):** modelagem, migrations, documentação, demo  
+
+---
+
+## ⚖️ Conformidade LGPD
+
+- Consentimento explícito obrigatório  
+- Finalidade declarada: "imagem usada exclusivamente para controle de acesso"  
+- Prazo de retenção: 90 dias (`expira_em`)  
+- Direito à exclusão: `DELETE /visitantes/{id}` remove foto e dados pessoais  
+
+---
+
+## ⚠️ Riscos e Mitigações
+
+- **WebSocket instável na demo:** usar localhost + vídeo backup  
+- **Sprint 3 atrasar:** iniciar config WS no fim da Sprint 2  
+- **Câmera não funcionar:** testar ambiente antecipadamente  
+- **Escopo crescer:** só após ciclo completo funcional  
+- **Divisão desigual de trabalho:** contrato de interface na semana 1  
+
+---
+
+## 📽️ Pitch
+
+> *"68 milhões de brasileiros vivem em condomínios. A maioria confia sua segurança a um caderno de papel.  
+> Nossa solução digitaliza a portaria: o porteiro registra o visitante com foto, o morador autoriza em tempo real, e o síndico consulta o histórico completo.  
+> É a segurança que o condomínio já deveria ter — simples, acessível e sem custo de hardware especializado."*
+
+---
+
+## 🚀 Status
+
+- MVP em desenvolvimento  
+- Prazo total estimado: **6 meses**  
+- Entrega final: **demo ao vivo + vídeo backup**
