@@ -7,3 +7,5 @@
 - Fluxo de projeto
 - Adicionar epics e storys
 - Organizar proximas sprints
+- Fazer uma limpa nos problemas do git
+- Alinhar o tema e temas reservas
