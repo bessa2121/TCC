@@ -1,52 +1,63 @@
-# 📚 EduAdapt — Plataforma de Adaptação Didática com IA
+# 📚 NeuroLearn — Plataforma de Adaptação Didática com IA para Alunos com TEA
 
-Uma plataforma educacional que utiliza **Inteligência Artificial** para transformar materiais didáticos tradicionais em conteúdos acessíveis para alunos com autismo, promovendo inclusão e facilitando o trabalho de professores.
+Uma plataforma educacional que utiliza **Inteligência Artificial** para adaptar materiais didáticos tradicionais para **estudantes com Transtorno do Espectro Autista (TEA) nível 1 de suporte**, do **ensino médio**, promovendo acessibilidade e apoiando o trabalho de professores.
 
 ---
 
 # 🎯 Objetivo
 
-O objetivo do **EduAdapt** é auxiliar professores a adaptar rapidamente seus materiais pedagógicos para estudantes com **Transtorno do Espectro Autista (TEA)**.
+O objetivo do **NeuroLearn** é auxiliar professores do ensino médio a adaptar rapidamente materiais pedagógicos para **alunos com TEA nível 1 de suporte, verbais e alfabetizados**, que frequentemente apresentam dificuldades na interpretação de conteúdos complexos.
 
-A plataforma recebe conteúdos como:
+A plataforma recebe materiais como:
 
-- PDFs
-- Textos
-- Slides
-- Atividades
+- PDFs  
+- textos  
+- slides  
+- atividades  
 
 E utiliza **IA** para gerar versões mais acessíveis, com:
 
-- linguagem simplificada
-- estrutura organizada
-- tópicos claros
-- divisão em etapas
-- recursos visuais
+- linguagem mais clara
+- frases curtas
+- organização em tópicos
+- divisão em etapas de aprendizagem
+- estrutura visual simplificada
 
 ---
 
 # 🧩 Problema
 
-Muitos professores enfrentam dificuldades para adaptar conteúdos para alunos com TEA porque:
+Embora a educação busque ser cada vez mais inclusiva, muitos estudantes com **TEA nível 1** enfrentam dificuldades ao utilizar materiais didáticos tradicionais.
+
+Entre os principais desafios estão:
+
+- textos longos e complexos
+- linguagem abstrata ou metafórica
+- excesso de informações em um único conteúdo
+- baixa estruturação visual
+
+Além disso, muitos professores relatam dificuldades para adaptar conteúdos porque:
 
 - não possuem formação específica em educação inclusiva
-- não têm tempo para adaptar materiais manualmente
-- utilizam conteúdos complexos e pouco estruturados
+- não dispõem de tempo para adaptar materiais manualmente
+- precisam preparar aulas para turmas numerosas
 
-Isso pode dificultar o aprendizado e a participação desses alunos.
+Isso pode dificultar a **compreensão do conteúdo e a participação desses alunos em sala de aula**.
 
 ---
 
 # 💡 Solução
 
-O **EduAdapt** automatiza a adaptação pedagógica utilizando **Inteligência Artificial**.
+O **NeuroLearn** automatiza a adaptação pedagógica utilizando **Inteligência Artificial**.
 
-## Fluxo da plataforma
+A plataforma transforma materiais didáticos comuns em versões mais acessíveis para estudantes com TEA.
+
+## Fluxo da Plataforma
 
 1. O professor envia o material original  
 2. A IA analisa o conteúdo  
-3. O sistema gera uma versão adaptada  
-4. O professor pode revisar e baixar o material adaptado  
+3. O sistema reorganiza e simplifica o material  
+4. O professor revisa e disponibiliza a versão adaptada  
 
 ---
 
@@ -54,22 +65,22 @@ O **EduAdapt** automatiza a adaptação pedagógica utilizando **Inteligência A
 
 ## 👨‍🏫 Para Professores
 
-- Upload de material didático
-- Conversão automática para linguagem simplificada
-- Transformação de textos em tópicos
-- Geração de exercícios passo a passo
+- Upload de materiais didáticos
+- Simplificação automática de textos
+- Conversão de conteúdos em tópicos organizados
+- Geração de atividades passo a passo
 - Download do material adaptado
 
 ## 🧑‍🎓 Para Alunos
 
-- Conteúdo organizado em blocos
+- Conteúdo dividido em blocos
 - Frases curtas e diretas
-- Interface visual simples
-- Material mais fácil de compreender
+- Estrutura visual organizada
+- Materiais mais fáceis de compreender
 
 ---
 
-# 🧠 Exemplos de Adaptação
+# 🧠 Exemplo de Adaptação
 
 ## Texto original
 
@@ -82,7 +93,7 @@ O **EduAdapt** automatiza a adaptação pedagógica utilizando **Inteligência A
 - Começou na Inglaterra  
 - Aconteceu no século XVIII  
 - Mudou a forma de produzir produtos  
-- Muitas máquinas passaram a ser usadas  
+- Máquinas passaram a ser usadas nas fábricas  
 
 ---
 
@@ -90,55 +101,54 @@ O **EduAdapt** automatiza a adaptação pedagógica utilizando **Inteligência A
 
 ## Front-end
 
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
+- HTML5  
+- CSS3  
+- JavaScript  
+- Bootstrap  
 
 ## Back-end
 
-- PHP
+- PHP  
 
 ## Banco de Dados
 
-- MySQL
+- MySQL  
 
 ## Inteligência Artificial
 
-- API de IA para simplificação e adaptação de texto
+- API de IA para análise e simplificação de texto
 
 ---
 
 # 🏗 Arquitetura do Sistema
 
-Professor
-│
-▼
-Upload de material
-│
-▼
-Servidor (Back-end)
-│
-▼
-Processamento com IA
-│
-▼
-Geração de material adaptado
-│
-▼
-Download ou visualização
-
+Professor  
+│  
+▼  
+Upload de material  
+│  
+▼  
+Servidor (Back-end)  
+│  
+▼  
+Processamento com IA  
+│  
+▼  
+Geração de material adaptado  
+│  
+▼  
+Visualização ou download  
 
 ---
 
 # 📊 Impacto Educacional
 
-A plataforma contribui para:
+O **NeuroLearn** contribui para:
 
-- inclusão educacional
-- acessibilidade no ensino
+- maior inclusão no ensino médio
+- adaptação rápida de materiais pedagógicos
 - apoio ao trabalho do professor
-- melhoria da compreensão para alunos com TEA
+- melhoria da compreensão de conteúdos para alunos com TEA
 
 ---
 
@@ -146,9 +156,29 @@ A plataforma contribui para:
 
 - geração automática de pictogramas
 - leitura em voz do conteúdo
-- adaptação para diferentes níveis de autismo
+- adaptação para diferentes níveis de dificuldade
 - suporte para dislexia e TDAH
 - integração com plataformas educacionais
+
+---
+
+# 🎤 Pitch do Projeto
+
+A educação ainda enfrenta desafios para atender às necessidades de estudantes neurodivergentes.
+
+Alunos com **Transtorno do Espectro Autista nível 1**, mesmo sendo verbais e alfabetizados, frequentemente encontram dificuldades ao lidar com materiais didáticos longos, complexos ou pouco estruturados.
+
+Ao mesmo tempo, professores do ensino médio muitas vezes não possuem tempo ou formação específica para adaptar conteúdos manualmente.
+
+Pensando nesse cenário, desenvolvemos o **NeuroLearn**.
+
+O NeuroLearn é uma **plataforma educacional que utiliza inteligência artificial para adaptar materiais didáticos tradicionais para alunos com TEA**.
+
+O professor envia um conteúdo — como um texto, slide ou PDF — e o sistema analisa o material e gera automaticamente uma versão mais acessível, com **linguagem simplificada, organização em tópicos e etapas claras de aprendizagem**.
+
+Dessa forma, o NeuroLearn **reduz o tempo de adaptação de materiais, apoia o trabalho do professor e melhora a compreensão do conteúdo para estudantes com autismo**.
+
+Nosso objetivo é utilizar **tecnologia e inteligência artificial para tornar o ensino médio mais acessível, inclusivo e eficiente**.
 
 ---
 
@@ -156,7 +186,7 @@ A plataforma contribui para:
 
 Projeto desenvolvido como **Trabalho de Conclusão de Curso (TCC)**.
 
-**Integrantes:**
+**Integrantes**
 
 - Davi Tavares  
 - Leonardo Buso  
