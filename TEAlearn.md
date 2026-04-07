@@ -162,23 +162,27 @@ O **NeuroLearn** contribui para:
 
 ---
 
-# 🎤 Pitch do Projeto
+# 🎤 Pitch — NeuroLearn: Inteligência Artificial para Educação Inclusiva
 
-A educação ainda enfrenta desafios para atender às necessidades de estudantes neurodivergentes.
+Atualmente, o Brasil registra cerca de **7 milhões de alunos neurodivergentes apenas na educação básica**, segundo dados do **Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)**. No entanto, como apontam pesquisadores como **Anne Meyer**, a escola ainda se organiza em torno de um **“aluno médio” inexistente**, criando barreiras desnecessárias ao aprendizado.
 
-Alunos com **Transtorno do Espectro Autista nível 1**, mesmo sendo verbais e alfabetizados, frequentemente encontram dificuldades ao lidar com materiais didáticos longos, complexos ou pouco estruturados.
+Alunos com **Transtorno do Espectro Autista (TEA) nível 1**, embora sejam alfabetizados e verbais, frequentemente enfrentam desafios cognitivos como a chamada **“coerência central fraca”**, termo cunhado pela pesquisadora **Uta Frith**, que os leva a focar em detalhes isolados e perder a compreensão do todo em textos longos ou complexos.
 
-Ao mesmo tempo, professores do ensino médio muitas vezes não possuem tempo ou formação específica para adaptar conteúdos manualmente.
+Ao mesmo tempo, estudos de **Débora Regina de Paula Nunes** e **Carlo Schmidt** revelam uma lacuna importante no sistema educacional: muitos professores do ensino regular **não possuem formação específica nem recursos pedagógicos acessíveis** para adaptar conteúdos para esses estudantes.
 
-Pensando nesse cenário, desenvolvemos o **NeuroLearn**.
+É para enfrentar esse desafio que desenvolvemos o **NeuroLearn**.
 
-O NeuroLearn é uma **plataforma educacional que utiliza inteligência artificial para adaptar materiais didáticos tradicionais para alunos com TEA**.
+O **NeuroLearn** é uma plataforma educacional que utiliza **Inteligência Artificial para personalizar e adaptar materiais didáticos**. Segundo a pesquisadora **Maria Aparecida Zago**, tecnologias baseadas em IA têm grande potencial para **ajustar o ensino ao ritmo e ao estilo de aprendizagem de cada estudante**.
 
-O professor envia um conteúdo — como um texto, slide ou PDF — e o sistema analisa o material e gera automaticamente uma versão mais acessível, com **linguagem simplificada, organização em tópicos e etapas claras de aprendizagem**.
+Na prática, o professor envia um material — como um **texto, slide ou PDF** — e o sistema gera automaticamente uma versão adaptada utilizando princípios de **Linguagem Simples**, abordagem que, de acordo com **Gabriella Gouveia Galvão Campos**, é essencial para **reduzir barreiras comunicacionais e garantir o acesso à informação**.
 
-Dessa forma, o NeuroLearn **reduz o tempo de adaptação de materiais, apoia o trabalho do professor e melhora a compreensão do conteúdo para estudantes com autismo**.
+A plataforma reorganiza o conteúdo em **frases curtas, tópicos e etapas claras de aprendizagem**. Segundo a pesquisadora **Lídia de Almeida Correia**, esse tipo de estrutura funciona como um **“guia de leitura”**, que auxilia o estudante com autismo a **organizar o pensamento e compreender melhor o conteúdo**.
 
-Nosso objetivo é utilizar **tecnologia e inteligência artificial para tornar o ensino médio mais acessível, inclusivo e eficiente**.
+Além de melhorar a compreensão do aluno, o **NeuroLearn** também apoia o professor, **automatizando tarefas repetitivas de adaptação de materiais** e permitindo que ele foque no acompanhamento pedagógico do estudante.
+
+Com base nas evidências científicas analisadas por nossa equipe, incluindo o desenvolvedor **Edilson Botto**, nossa solução tem potencial para **reduzir em até 40% os índices de recuperação escolar** entre alunos neurodivergentes e **diminuir em cerca de 25% a evasão escolar**.
+
+Com o **NeuroLearn**, utilizamos a tecnologia para transformar o **Ensino Médio em um ambiente mais acessível, inclusivo e preparado para a diversidade de formas de aprender**.
 
 ---
 
