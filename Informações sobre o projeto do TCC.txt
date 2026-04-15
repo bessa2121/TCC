@@ -7,6 +7,11 @@ Pareamentos de cores, usar exemplos do cotidiano
 matéria a ser aprendida
 - Minimizar distrações, algo objetivo e prezar o foco 
 - Gamificar é uma boa ideia (trilhas de aprendizado)
+
+-- USAR O ABA NA GAMIFICAÇÃO{
+  Reforço positivo, monitoramento de progresso, ganhar recompensas e ajuda imediata para que o aluno não fique frustado
+}
+
 - Contar histórias é uma boa ideia para ensinar assuntos de alguma matéria
 - Tentar transformar a trilha gamificada em algum desses jogos ou usar como inspiração em alguma parte, etc {
   UNO, 
