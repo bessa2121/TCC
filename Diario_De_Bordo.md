@@ -1,127 +1,218 @@
 # 📘 Diário de Bordo – Trabalho de Conclusão de Curso
 
+---
+
 ## 👥 Integrantes do Grupo
-- Leonardo Buso  
-- Davi Tavares  
-- João Vitor  
-- Felipe Rocha  
-- Bryan Diego  
-- Fernando Fiani  
+
+| Integrante |
+|-------------|
+| Leonardo Buso |
+| Davi Tavares |
+| João Vitor |
+| Felipe Rocha |
+| Bryan Diego |
+| Fernando Fiani |
 
 ---
 
-## 📅 06/04 — Definição Inicial do Tema
+# 📅 06/04 — Definição Inicial do Tema
 
-Neste dia realizamos a primeira reunião para iniciar o planejamento do Trabalho de Conclusão de Curso. O grupo discutiu ideias iniciais de temas relacionados à tecnologia e educação, analisando possíveis problemas reais que poderiam ser solucionados com o uso de tecnologia.
+🧠 **Atividades do dia**
 
-Após debate entre os integrantes, foi definido um **tema inicial voltado ao aprendizado para pessoas com TEA (Transtorno do Espectro Autista)**. Também iniciamos uma **busca preliminar por fontes e referências** para validar a relevância do problema.
+O grupo realizou a primeira reunião para iniciar o planejamento do Trabalho de Conclusão de Curso. Foram discutidas ideias de temas relacionados à tecnologia e educação, analisando problemas reais que poderiam ser resolvidos com tecnologia.
 
-### 👥 Participações
-- **Davi Tavares:** sugeriu ideias iniciais e direcionou a discussão para a área de educação.  
-- **Leonardo Buso:** contribuiu na análise das possibilidades tecnológicas para o projeto.  
-- **Felipe Rocha:** auxiliou na busca por soluções tecnológicas relacionadas ao tema.  
-- **Fernando Fiani:** participou da discussão e da identificação de possíveis abordagens.  
-- **João Vitor:** colaborou com ideias para aplicação prática da tecnologia.  
-- **Bryan Diego:** pesquisou fontes iniciais para validar a relevância do problema.
+Após debate, foi definido um **tema inicial voltado ao aprendizado para pessoas com TEA (Transtorno do Espectro Autista)**. Também iniciamos uma **busca preliminar por fontes e referências** para validar a relevância do problema.
 
 ---
 
-## 📅 07/04 — Pesquisa Inicial
+### 📦 Contribuição dos Integrantes
 
-Realizamos uma nova reunião para aprofundar o tema escolhido. Durante o encontro, o grupo **visualizou pesquisas acadêmicas, artigos e materiais educacionais** sobre inclusão e metodologias de ensino para pessoas com TEA.
+> **Davi Tavares**  
+> 💡 Sugeriu ideias iniciais de tema e direcionou a discussão para a área de educação.
 
-Também assistimos **vídeos e palestras sobre aprendizagem neurodivergente**, buscando compreender melhor as dificuldades enfrentadas por esses alunos no ambiente educacional tradicional.
+> **Leonardo Buso**  
+> 🔎 Analisou possibilidades tecnológicas que poderiam ser aplicadas ao projeto.
 
-### 👥 Participações
-- **Leonardo Buso:** encontrou vídeos e conteúdos sobre aprendizagem neurodivergente.  
-- **Davi Tavares:** auxiliou na análise das pesquisas encontradas.  
-- **Fernando Fiani:** contribuiu na avaliação dos materiais analisados.  
-- **Bryan Diego:** reuniu conteúdos educacionais relevantes para discussão.  
-- **João Vitor:** auxiliou na organização dos materiais pesquisados.
+> **Felipe Rocha**  
+> 🧩 Contribuiu com ideias de possíveis soluções tecnológicas.
 
----
+> **Fernando Fiani**  
+> 📊 Participou da discussão e ajudou a identificar possíveis abordagens.
 
-## 📅 08/04 — Delimitação do Tema
+> **João Vitor**  
+> 🛠️ Colaborou com ideias sobre aplicação prática da solução.
 
-Neste dia o grupo focou em **especificar e filtrar melhor o tema do projeto**, delimitando o escopo do TCC para torná-lo mais claro e viável.
-
-Foram discutidas possíveis soluções tecnológicas e analisadas abordagens que poderiam gerar maior impacto educacional. A partir disso, começou a surgir a ideia de uma **plataforma ou ferramenta voltada para adaptação de conteúdos educacionais**.
-
-### 👥 Participações
-- **Davi Tavares:** sugeriu o uso de tecnologia para adaptação de conteúdos educacionais.  
-- **Leonardo Buso:** contribuiu na discussão sobre funcionalidades da possível solução.  
-- **João Vitor:** auxiliou na delimitação do escopo do projeto.
+> **Bryan Diego**  
+> 📚 Pesquisou fontes iniciais para validar o problema.
 
 ---
 
-## 📅 09/04 — Estudo de Metodologias
+# 📅 07/04 — Pesquisa Inicial
 
-O grupo dedicou este dia ao **estudo de metodologias de pesquisa e desenvolvimento de projetos**. Foram analisados modelos de desenvolvimento, levantamento de requisitos e formas de validação de ideias.
+🧠 **Atividades do dia**
 
-Também foram levantados **estudos importantes sobre aprendizagem de pessoas com TEA**, buscando identificar boas práticas na educação inclusiva.
+O grupo aprofundou o tema escolhido pesquisando **artigos acadêmicos, estudos e materiais educacionais** sobre inclusão e metodologias de ensino para pessoas com TEA.
 
-### 👥 Participações
-- **Leonardo Buso:** pesquisou metodologias utilizadas em projetos acadêmicos.  
-- **Davi Tavares:** trouxe estudos relacionados à aprendizagem para pessoas com TEA.  
-- **Bryan Diego:** auxiliou na organização das informações pesquisadas.
+Também foram assistidos **vídeos e palestras sobre aprendizagem neurodivergente**, com o objetivo de compreender melhor as dificuldades enfrentadas por esses alunos no ensino tradicional.
 
 ---
 
-## 📅 10/04 — Estrutura Inicial do Projeto
+### 📦 Contribuição dos Integrantes
 
-Neste encontro começamos a **estruturar o fluxo inicial do projeto**, definindo etapas como:
+> **Leonardo Buso**  
+> 🎥 Encontrou vídeos e conteúdos explicativos sobre aprendizagem neurodivergente.
+
+> **Davi Tavares**  
+> 📊 Auxiliou na análise das pesquisas encontradas.
+
+> **Fernando Fiani**  
+> 🔍 Contribuiu na avaliação dos materiais pesquisados.
+
+> **Bryan Diego**  
+> 📚 Reuniu conteúdos educacionais relevantes para discussão.
+
+> **João Vitor**  
+> 🗂️ Ajudou na organização dos materiais encontrados.
+
+---
+
+# 📅 08/04 — Delimitação do Tema
+
+🧠 **Atividades do dia**
+
+O grupo trabalhou na **delimitação e filtragem do tema**, tornando o escopo do TCC mais claro e viável.
+
+Durante as discussões, começou a surgir a ideia de desenvolver uma **plataforma ou ferramenta capaz de adaptar conteúdos educacionais para alunos com TEA**.
+
+---
+
+### 📦 Contribuição dos Integrantes
+
+> **Davi Tavares**  
+> 💡 Sugeriu a ideia de adaptar conteúdos educacionais usando tecnologia.
+
+> **Leonardo Buso**  
+> 🧩 Contribuiu com ideias sobre funcionalidades da solução.
+
+> **João Vitor**  
+> 📐 Auxiliou na delimitação do escopo do projeto.
+
+---
+
+# 📅 09/04 — Estudo de Metodologias
+
+🧠 **Atividades do dia**
+
+Neste dia foram estudadas **metodologias de pesquisa e desenvolvimento de projetos**, incluindo formas de levantamento de requisitos e validação de ideias.
+
+Também foram analisados **estudos relevantes sobre aprendizagem de pessoas com TEA**, identificando boas práticas utilizadas na educação inclusiva.
+
+---
+
+### 📦 Contribuição dos Integrantes
+
+> **Leonardo Buso**  
+> 📖 Pesquisou metodologias utilizadas em projetos acadêmicos.
+
+> **Davi Tavares**  
+> 📚 Trouxe estudos sobre aprendizagem de pessoas com TEA.
+
+> **Bryan Diego**  
+> 🗂️ Auxiliou na organização das informações pesquisadas.
+
+---
+
+# 📅 10/04 — Estrutura Inicial do Projeto
+
+🧠 **Atividades do dia**
+
+O grupo começou a estruturar o **fluxo inicial do projeto**, definindo as principais etapas:
 
 - Pesquisa  
 - Desenvolvimento  
 - Testes  
 - Validação  
 
-Também iniciamos a **organização interna do grupo**, discutindo responsabilidades e áreas de atuação de cada integrante.
-
-### 👥 Participações
-- **Davi Tavares:** ajudou na criação do fluxo inicial do projeto.  
-- **Felipe Rocha:** contribuiu na organização das etapas de desenvolvimento.  
-- **João Vitor:** sugeriu ideias para divisão de tarefas.
+Também foi iniciada uma **organização interna das funções do grupo**.
 
 ---
 
-## 📅 13/04 — Coleta de Informações
+### 📦 Contribuição dos Integrantes
 
-Neste dia realizamos **entrevistas e coleta de informações** para compreender melhor o problema que desejamos abordar. Buscamos relatos e experiências que pudessem contribuir para o desenvolvimento da solução.
+> **Davi Tavares**  
+> 📊 Ajudou na criação do fluxo inicial do projeto.
 
-As informações coletadas foram organizadas para identificar **necessidades reais do público-alvo**.
+> **Felipe Rocha**  
+> 🛠️ Participou da organização das etapas de desenvolvimento.
 
-### 👥 Participações
-- **Davi Tavares:** auxiliou na realização e registro das entrevistas.  
-- **Leonardo Buso:** organizou os dados coletados.  
-- **Fernando Fiani:** colaborou na análise das informações obtidas.
-
----
-
-## 📅 14/04 — Análise dos Dados
-
-Foi realizada uma reunião para **analisar os dados coletados nas entrevistas e pesquisas**. A partir dessas informações, refinamos a ideia do projeto e começamos a estruturar melhor a solução proposta.
-
-Também realizamos uma **pré-divisão de cargos dentro do grupo**, visando melhorar a organização e o andamento do trabalho.
-
-### 👥 Participações
-- **Davi Tavares:** ajudou na análise das entrevistas.  
-- **Leonardo Buso:** contribuiu na definição da estrutura inicial da solução.
+> **João Vitor**  
+> 💡 Contribuiu com ideias para divisão de tarefas.
 
 ---
 
-## 📅 15/04 — Consolidação do Planejamento
+# 📅 13/04 — Coleta de Informações
 
-Neste dia finalizamos a etapa inicial de planejamento do projeto. Revisamos o material pesquisado, organizamos as informações coletadas e alinhamos os próximos passos do desenvolvimento do TCC.
+🧠 **Atividades do dia**
 
-Também foi definido que as **reuniões do grupo ocorrerão às terças e quintas**, garantindo continuidade no desenvolvimento do trabalho.
+O grupo realizou **entrevistas e coleta de informações** para compreender melhor o problema que o projeto pretende resolver.
 
-### 👥 Participações
-- **Leonardo Buso:** revisou as pesquisas realizadas.  
-- **Fernando Fiani:** auxiliou na organização do planejamento das próximas etapas.
+Essas informações ajudaram a identificar **necessidades reais do público-alvo**.
+
+---
+
+### 📦 Contribuição dos Integrantes
+
+> **Davi Tavares**  
+> 🎤 Auxiliou na realização e registro das entrevistas.
+
+> **Leonardo Buso**  
+> 📊 Organizou os dados coletados.
+
+> **Fernando Fiani**  
+> 🔍 Ajudou na análise das informações obtidas.
+
+---
+
+# 📅 14/04 — Análise dos Dados
+
+🧠 **Atividades do dia**
+
+Foi realizada uma reunião para **analisar os dados coletados nas entrevistas e pesquisas**.
+
+A partir dessas informações, o grupo refinou a ideia do projeto e iniciou uma **pré-divisão de responsabilidades dentro da equipe**.
+
+---
+
+### 📦 Contribuição dos Integrantes
+
+> **Davi Tavares**  
+> 📊 Auxiliou na análise das entrevistas.
+
+> **Leonardo Buso**  
+> 🧩 Contribuiu na estruturação inicial da solução.
+
+---
+
+# 📅 15/04 — Consolidação do Planejamento
+
+🧠 **Atividades do dia**
+
+O grupo revisou todo o material pesquisado e organizou as informações coletadas, alinhando os **próximos passos do desenvolvimento do TCC**.
+
+Também foi definido que as **reuniões ocorrerão às terças e quintas**, garantindo continuidade no projeto.
+
+---
+
+### 📦 Contribuição dos Integrantes
+
+> **Leonardo Buso**  
+> 📚 Revisou as pesquisas realizadas.
+
+> **Fernando Fiani**  
+> 📅 Auxiliou no planejamento das próximas etapas.
 
 ---
 
 ## ✍️ Observação
 
-Este diário de bordo registra as atividades iniciais realizadas pelo grupo durante o processo de **definição, pesquisa e planejamento do Trabalho de Conclusão de Curso**, servindo como documentação do progresso e organização do projeto.
+Este diário de bordo registra as atividades iniciais realizadas pelo grupo durante o processo de **definição, pesquisa e planejamento do Trabalho de Conclusão de Curso**, documentando a evolução do projeto.
