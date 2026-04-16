@@ -1,11 +1,9 @@
-separar funções de cada cargo corretamente
 separar fluxo corretamente
 começar documentação 3
 diario de bordo 2
 coisas qualidade de software 4
 
 decidir entre monolito ou microsservico
-separar equipes
 separar metas 
 fazer uma visualização básica
 como vamos fazer
