@@ -1,0 +1,43 @@
+Plataforma de conversão de material didático para material didático para TEA
+Filtragem:
+- Nível de suporte 1
+- Verbal
+- Alfabetizado
+- Ensino Médio
+- Linguagens e Suas Tecnologias
+
+Formatos de Entrada:
+- Txt
+
+Formato de Saída:
+- Txt
+- Docx
+- PDFs
+
+Funcionalidades:
+- Conversor de Material
+
+Requisitos Funcionais:
+- Botão de upload
+- Botão de enviar
+- Botão de cancelar
+- Botão para converter
+- Botão de download
+- Botão de refazer (refinar/ melhorar o conteudo)
+
+Requisitos Não Funcionais:
+- Paletas Acessíveis
+- Telas limpas e objetivas
+- UI/ UX
+
+Regras de Negócio:
+- Só o professor poderá acessar a plataforma
+- Carta dos responsáveis sobre a forma de aprendizagem dos alunos
+- Escola identificar quem são os alunos com TEA
+
+Melhorias Futuras:
+- Adicionar outras maneiras de entrada
+- Adicionar o editor
+- Adicionar mais matérias
+- Adicionar mais níveis de suporte
+- Adicionar botão para escolher um tema (ajudar no aprendizado)
