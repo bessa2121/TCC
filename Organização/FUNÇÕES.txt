@@ -1,0 +1,11 @@
+Bryan Diego: Responsável pela realização da documentação do projeto por completo
+
+Fernando Fiani: Responsável pela realização e administração do banco de dados
+
+Felipe Rocha: Juntamente ao Fernando, realizará e administrará o banco de dados
+
+João Vitor: Responsável pela integração da IA no projeto e a realização do Front-End
+
+Leonardo Buso: Juntamente ao João Vitor, realizará o Front-End e auxiliará na documentação
+
+Davi Tavares: Responsável pela realização do Back-End

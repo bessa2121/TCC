@@ -1,0 +1,37 @@
+CARGOS:
+
+Davi Tavares: Scrum Master | Tech Lead | Back-End
+João Vitor: IA | Front-End
+Fernando Fianni: Banco de Dados
+Felipe Rocha: Banco de Dados
+Bryan Diego: Documentação
+Leonardo Buso: PO | Documentação | Front-End
+
+EQUIPES:
+
+BACK-END:
+
+Davi Tavares
+
+
+FRONT-END:
+
+Leonardo Buso
+João Vitor
+
+
+BANCO DE DADOS:
+
+Fernando Fiani
+Felipe Rocha
+
+
+DOCUMENTAÇÃO:
+
+Bryan Diego
+Leonardo Buso
+
+
+IA:
+
+João Vitor
