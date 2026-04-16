@@ -1,4 +1,3 @@
-separar funções de cada cargo corretamente
 separar fluxo corretamente
 começar documentação 3
 diario de bordo 2
