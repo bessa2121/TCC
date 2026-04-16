@@ -1,242 +1,207 @@
-# 🧠📚 NeuroLearn — Plataforma de Adaptação Didática com IA
+# 📚 NeuroLearn — Plataforma de Adaptação Didática com IA para Alunos com TEA
 
-> **Inteligência Artificial aplicada à educação inclusiva para estudantes com TEA**
+Uma plataforma educacional que utiliza **Inteligência Artificial** para adaptar materiais didáticos tradicionais para **estudantes com Transtorno do Espectro Autista (TEA) nível 1 de suporte**, do **ensino médio**, promovendo acessibilidade e apoiando o trabalho de professores.
 
 ---
 
-# 🎯 Visão Geral
+# 🎯 Objetivo
 
-O **NeuroLearn** é uma plataforma que utiliza Inteligência Artificial para adaptar materiais didáticos tradicionais (PDFs, imagens, textos) em conteúdos mais acessíveis para alunos com Transtorno do Espectro Autista (TEA), especialmente no ensino médio.
+O objetivo do **NeuroLearn** é auxiliar professores do ensino médio a adaptar rapidamente materiais pedagógicos para **alunos com TEA nível 1 de suporte, verbais e alfabetizados**, que frequentemente apresentam dificuldades na interpretação de conteúdos complexos.
 
-A proposta é:
+A plataforma recebe materiais como:
 
-* Reduzir barreiras de compreensão
-* Ajudar professores a adaptar conteúdos rapidamente
-* Melhorar a experiência de aprendizagem de alunos neurodivergentes
+- PDFs  
+- textos  
+- slides  
+- atividades  
+
+E utiliza **IA** para gerar versões mais acessíveis, com:
+
+- linguagem mais clara
+- frases curtas
+- organização em tópicos
+- divisão em etapas de aprendizagem
+- estrutura visual simplificada
 
 ---
 
 # 🧩 Problema
 
-Professores enfrentam dificuldades como:
+Embora a educação busque ser cada vez mais inclusiva, muitos estudantes com **TEA nível 1** enfrentam dificuldades ao utilizar materiais didáticos tradicionais.
 
-* Falta de tempo para adaptar conteúdos
-* Ausência de formação em educação inclusiva
-* Materiais complexos e pouco acessíveis
+Entre os principais desafios estão:
 
-Alunos com TEA enfrentam:
+- textos longos e complexos
+- linguagem abstrata ou metafórica
+- excesso de informações em um único conteúdo
+- baixa estruturação visual
 
-* Dificuldade com textos longos
-* Problemas com linguagem abstrata
-* Sobrecarga cognitiva
+Além disso, muitos professores relatam dificuldades para adaptar conteúdos porque:
+
+- não possuem formação específica em educação inclusiva
+- não dispõem de tempo para adaptar materiais manualmente
+- precisam preparar aulas para turmas numerosas
+
+Isso pode dificultar a **compreensão do conteúdo e a participação desses alunos em sala de aula**.
 
 ---
 
 # 💡 Solução
 
-O sistema:
+O **NeuroLearn** automatiza a adaptação pedagógica utilizando **Inteligência Artificial**.
 
-* Recebe materiais didáticos
-* Processa o conteúdo
-* Aplica IA para simplificação
-* Gera versões acessíveis
-* Permite edição pelo professor
-* Exporta conteúdo final
+A plataforma transforma materiais didáticos comuns em versões mais acessíveis para estudantes com TEA.
+
+## Fluxo da Plataforma
+
+1. O professor envia o material original  
+2. A IA analisa o conteúdo  
+3. O sistema reorganiza e simplifica o material  
+4. O professor revisa e disponibiliza a versão adaptada  
+
+---
+
+# ⚙️ Funcionalidades
+
+## 👨‍🏫 Para Professores
+
+- Upload de materiais didáticos
+- Simplificação automática de textos
+- Conversão de conteúdos em tópicos organizados
+- Geração de atividades passo a passo
+- Download do material adaptado
+
+## 🧑‍🎓 Para Alunos
+
+- Conteúdo dividido em blocos
+- Frases curtas e diretas
+- Estrutura visual organizada
+- Materiais mais fáceis de compreender
+
+---
+
+# 🧠 Exemplo de Adaptação
+
+## Texto original
+
+> A Revolução Industrial foi um processo de transformação econômica e social iniciado na Inglaterra no século XVIII.
+
+## Texto adaptado
+
+📌 **Revolução Industrial**
+
+- Começou na Inglaterra  
+- Aconteceu no século XVIII  
+- Mudou a forma de produzir produtos  
+- Máquinas passaram a ser usadas nas fábricas  
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+## Front-end
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Bootstrap  
+
+## Back-end
+
+- PHP  
+
+## Banco de Dados
+
+- MySQL  
+
+## Inteligência Artificial
+
+- API de IA para análise e simplificação de texto
 
 ---
 
 # 🏗 Arquitetura do Sistema
 
-```mermaid
-flowchart TD
-    A[📥 Upload de Arquivo] --> B[📄 Extração de Texto]
-    B --> C[🧹 Limpeza e Organização]
-    C --> D[🧠 Divisão em Blocos]
-    D --> E[🤖 Processamento com IA]
-    E --> F[📝 Texto Adaptado]
-    E --> G[🧠 Mapa Mental]
-    F --> H[✏️ Edição pelo Professor]
-    G --> H
-    H --> I[📤 Exportação PDF]
-```
+Professor  
+│  
+▼  
+Upload de material  
+│  
+▼  
+Servidor (Back-end)  
+│  
+▼  
+Processamento com IA  
+│  
+▼  
+Geração de material adaptado  
+│  
+▼  
+Visualização ou download  
 
 ---
 
-# ⚙️ Stack Tecnológica
+# 📊 Impacto Educacional
 
-## 🔹 Backend
+O **NeuroLearn** contribui para:
 
-* Java + Spring Boot
-* Spring Data JPA
-* Lombok
-
-## 🔹 Frontend
-
-* React (interface simples)
-* Axios
-
-## 🔹 Banco de Dados
-
-* MySQL (produção)
-* H2 (desenvolvimento)
-
-## 🔹 Processamento de Arquivos
-
-* Apache PDFBox (PDF)
-* Apache POI (DOCX)
-* Tesseract OCR (imagens)
-
-## 🔹 Inteligência Artificial
-
-* API externa (GPT ou similar)
+- maior inclusão no ensino médio
+- adaptação rápida de materiais pedagógicos
+- apoio ao trabalho do professor
+- melhoria da compreensão de conteúdos para alunos com TEA
 
 ---
 
-# 🔄 Fluxo Completo do Sistema
+# 🚀 Possíveis Expansões Futuras
 
-```mermaid
-flowchart LR
-    A[Professor] --> B[Upload]
-    B --> C[Backend Spring]
-    C --> D[Extração de Texto]
-    D --> E[Limpeza]
-    E --> F[Chunking]
-    F --> G[IA API]
-    G --> H[Resposta Adaptada]
-    H --> I[Frontend]
-    I --> J[Edição]
-    J --> K[Exportação]
-```
+- geração automática de pictogramas
+- leitura em voz do conteúdo
+- adaptação para diferentes níveis de dificuldade
+- suporte para dislexia e TDAH
+- integração com plataformas educacionais
 
 ---
 
-# 🎨 Pipeline de Processamento
+# 🎤 Pitch — NeuroLearn: Inteligência Artificial para Educação Inclusiva
 
-```mermaid
-flowchart TD
-    A[Entrada] --> B{Tipo}
-    B -->|PDF| C[PDFBox]
-    B -->|Imagem| D[OCR]
-    B -->|Texto| E[Direto]
-    C --> F[Texto Unificado]
-    D --> F
-    E --> F
-    F --> G[Limpeza]
-    G --> H[Divisão em Partes]
-    H --> I[IA]
-    I --> J[Saída Estruturada]
-```
+Atualmente, o Brasil registra cerca de **7 milhões de alunos neurodivergentes apenas na educação básica**, segundo dados do **Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)**. No entanto, como apontam pesquisadores como **Anne Meyer**, a escola ainda se organiza em torno de um **“aluno médio” inexistente**, criando barreiras desnecessárias ao aprendizado.
 
----
+Esse cenário também aparece no ensino técnico. **Dados institucionais do Centro Paula Souza indicam que apenas cerca de 0,4% dos alunos das ETECs são identificados como pessoas com deficiência**, o que evidencia os desafios de **acesso, permanência e adaptação pedagógica nesse nível de ensino**.
 
-# 👨‍💻 Separação de Equipe (5 pessoas)
+Alunos com **Transtorno do Espectro Autista (TEA) nível 1**, embora sejam alfabetizados e verbais, frequentemente enfrentam desafios cognitivos como a chamada **“coerência central fraca”**, termo cunhado pela pesquisadora **Uta Frith**, que os leva a focar em detalhes isolados e perder a compreensão do todo em textos longos ou complexos.
 
-## 🧠 Backend (2 pessoas)
+Ao mesmo tempo, estudos de **Débora Regina de Paula Nunes** e **Carlo Schmidt** revelam uma lacuna importante no sistema educacional: muitos professores do ensino regular **não possuem formação específica nem recursos pedagógicos acessíveis para adaptar conteúdos para esses estudantes**. Esse cenário também é observado nas ETECs: **pesquisas institucionais indicam que cerca de 60% dos profissionais escolares relatam necessidade de mais preparo e recursos para lidar com estudantes com autismo**.
 
-Responsáveis por:
+É para enfrentar esse desafio que desenvolvemos o **NeuroLearn**.
 
-* API (Spring Boot)
-* Integração com IA
-* Processamento de arquivos
-* Banco de dados
+O **NeuroLearn** é uma plataforma educacional que utiliza **Inteligência Artificial para personalizar e adaptar materiais didáticos**. Segundo a pesquisadora **Maria Aparecida Zago**, tecnologias baseadas em IA têm grande potencial para **ajustar o ensino ao ritmo e ao estilo de aprendizagem de cada estudante**.
+
+Na prática, o professor envia um material — como um **texto, slide ou PDF** — e o sistema gera automaticamente uma versão adaptada utilizando princípios de **Linguagem Simples**, abordagem que, de acordo com **Gabriella Gouveia Galvão Campos**, é essencial para **reduzir barreiras comunicacionais e garantir o acesso à informação**.
+
+A plataforma reorganiza o conteúdo em **frases curtas, tópicos e etapas claras de aprendizagem**. Segundo a pesquisadora **Lídia de Almeida Correia**, esse tipo de estrutura funciona como um **“guia de leitura”**, que auxilia o estudante com autismo a **organizar o pensamento e compreender melhor o conteúdo**.
+
+Além de melhorar a compreensão do aluno, o **NeuroLearn também apoia o professor**, automatizando tarefas repetitivas de adaptação de materiais e permitindo que ele foque no acompanhamento pedagógico do estudante. Estudos realizados no contexto das **ETECs** indicam que o uso de ferramentas digitais de apoio pedagógico pode ajudar a combater a chamada **“exclusão velada”**, permitindo que estudantes com autismo participem ativamente das atividades escolares.
+
+Com base nas evidências científicas analisadas por nossa equipe, incluindo o desenvolvedor **Edilson Botto**, nossa solução tem potencial para **reduzir em até 40% os índices de recuperação escolar entre alunos neurodivergentes e diminuir a evasão escolar**.
+
+Com o **NeuroLearn**, utilizamos a tecnologia para transformar o **Ensino Médio — especialmente no contexto das ETECs do Centro Paula Souza — em um ambiente mais acessível, inclusivo e preparado para a diversidade de formas de aprender**.
 
 ---
 
-## 🎨 Frontend (2 pessoas)
+# 👨‍💻 Equipe
 
-Responsáveis por:
+Projeto desenvolvido como **Trabalho de Conclusão de Curso (TCC)**.
 
-* Interface React
-* Upload de arquivos
-* Exibição de resultados
-* Editor de texto
+**Integrantes**
 
----
-
-## 🔬 IA + Integração (1 pessoa)
-
-Responsável por:
-
-* Criação de prompts
-* Testes de qualidade
-* Controle de respostas
-* Redução de alucinações
+- Davi Tavares  
+- Leonardo Buso  
+- Felipe Rocha  
+- João Vitor  
+- Fernando Pina  
 
 ---
 
-# 📅 Cronograma (Abril → Outubro)
+# 📜 Licença
 
-```mermaid
-gantt
-    title Cronograma NeuroLearn
-    dateFormat  YYYY-MM-DD
-    section Base
-    Setup do Projeto        :a1, 2026-04-09, 14d
-    Upload de Arquivos      :a2, after a1, 14d
-
-    section Processamento
-    Extração de Texto       :b1, after a2, 21d
-    Integração com IA       :b2, after b1, 21d
-
-    section Inteligência
-    Melhorias IA + Chunking :c1, after b2, 14d
-    Perfis de Usuário       :c2, after c1, 14d
-
-    section Funcionalidades
-    Mapa Mental             :d1, after c2, 14d
-    Editor                  :d2, after d1, 14d
-    Exportação              :d3, after d2, 14d
-
-    section Finalização
-    UI/UX                   :e1, after d3, 14d
-    Testes                  :e2, after e1, 14d
-    Ajustes Finais          :e3, after e2, 14d
-```
-
----
-
-# 🧠 Estratégia de IA (Resumo)
-
-* Uso de API pronta (sem treinar modelo)
-* Prompt estruturado
-* Chunking (dividir texto)
-* Temperatura baixa
-* Professor no controle final
-
----
-
-# 🚀 Diferenciais do Projeto
-
-* ✔ Adaptação automática com IA
-* ✔ Foco em TEA nível 1
-* ✔ Geração de mapa mental
-* ✔ Edição humana (professor)
-* ✔ Exportação em PDF
-* ✔ Pipeline estruturado (nível profissional)
-
----
-
-# 🏁 Objetivo Final
-
-Criar uma plataforma funcional que:
-
-* Seja utilizável por professores reais
-* Reduza o tempo de adaptação de materiais
-* Melhore a compreensão de alunos com TEA
-* Demonstre aplicação prática de IA na educação
-
----
-
-# 📌 Status do Projeto
-
-🚧 Em desenvolvimento
-📅 Prazo final: **20 de Outubro de 2026**
-🎯 Meta: MVP funcional até **Julho/Agosto**
-
----
-
-# 💬 Observação Final
-
-> O foco não é apenas tecnologia, mas impacto educacional real.
-
----
+Este projeto foi desenvolvido para fins **educacionais e acadêmicos**.
