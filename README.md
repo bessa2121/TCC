@@ -101,14 +101,11 @@ A plataforma transforma materiais didáticos comuns em versões mais acessíveis
 
 ## Front-end
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Bootstrap  
+- React
 
 ## Back-end
 
-- PHP  
+- Java  
 
 ## Banco de Dados
 
