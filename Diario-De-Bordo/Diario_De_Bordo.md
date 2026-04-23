@@ -228,6 +228,21 @@ Especifiou-se a funcionalidade principal do projeto e foram definidas possíveis
 A atuação foi da equipe foi focada na organização e estruturação do projeto de forma com que ficasse mais claro e objetivo a coomprensão por todos os membros do grupo.
 ---
 
+
+# 📅 23/04 — Consolidação do Planejamento
+
+**Davi Tavares e Felipe Rocha**
+Atualizaram o excel do grupo e criaram o prompt do frontend
+
+**Joao Vitor E Fernando Fiani**
+Realizaram pesquisas sobre implementação da OpenAI no projeto
+
+**Bryan Diego E Leonardo Buso**
+Fizeram a documentação do prototipo do projeto
+
+🧠 **Atividades do dia**
+
+
 ## ✍️ Observação
 
 Este diário de bordo registra as atividades iniciais realizadas pelo grupo durante o processo de **definição, pesquisa e planejamento do Trabalho de Conclusão de Curso**, documentando a evolução do projeto.
