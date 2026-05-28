@@ -243,6 +243,11 @@ Fizeram a documentação do prototipo do projeto
 🧠 **Atividades do dia**
 
 
+--------------------------------------
+
+
+atualizem aqui, não esqueçam
+
 ## ✍️ Observação
 
 Este diário de bordo registra as atividades iniciais realizadas pelo grupo durante o processo de **definição, pesquisa e planejamento do Trabalho de Conclusão de Curso**, documentando a evolução do projeto.
