@@ -89,3 +89,24 @@ Este checklist foi ajustado especificamente para a modalidade de **Relatório T�
 - [ ] **Referências** (Obrigatório) — Fontes teóricas, documentações de linguagens/frameworks e artigos consultados (ordenadas alfabeticamente no sistema Autor-Data).
 - [ ] **Apêndices** (Opcional) — Documentos ou tabelas produzidos por você (ex: questionário de testes de usabilidade aplicado aos usuários).
 - [ ] **Anexos** (Opcional) — Documentos externos (ex: manuais de APIs de terceiros utilizadas no projeto).
+
+---
+
+## 📌 Guia Rápido: Padrão ABNT/CPS para Ilustrações e Tabelas
+
+### 1. Na Lista de Ilustrações (Elemento Pré-textual)
+* Não coloque apenas nomes soltos (ex: "Diagrama MER").
+* Formato correto: **[Tipo] [Número] – [Título descritivo] ..... [Página]**
+* *Exemplo:* `Figura 1 – Modelo Entidade-Relacionamento (MER) conceitual ..... 15`
+
+### 2. No Corpo do Texto (Onde a imagem aparece)
+* **Topo da Imagem:** Categoria + Número + Título.
+* **Abaixo da Imagem:** Fonte de origem.
+* *Exemplo:*
+  * **Figura 1 – Modelo Entidade-Relacionamento (MER) conceitual**
+  * *(Imagem do Diagrama)*
+  * **Fonte:** Elaborado pelos autores (2026).
+
+### 3. Chamada de Imagem no Texto
+* Nenhuma imagem pode ficar "solta" sem ser citada na explicação.
+* *Exemplo no parágrafo:* *"Para representar a estrutura do banco de dados, foi elaborado o modelo conceitual, conforme apresentado na **Figura 1**."*
