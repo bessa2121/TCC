@@ -30,7 +30,7 @@ A forma mais honesta de resumir o trabalho é esta:
 - `LeonardoBuso` teve o maior número de contribuições (54)
 - `bessa2121` também foi muito ativo (43)
 - `ValeJesus` (11), `Fernandofiani` (9), `felipergomes19` (6) e `BryanLustri` (2) tiveram participação menos constante.
-- O TCC foi, portanto, um trabalho de grupo, mas com liderança concreta de `bessa2121` e atuação forte de `bessa2121`.
+- O TCC foi, portanto, um trabalho de grupo, mas com liderança concreta de `bessa2121` e atuação forte de `bessa2121` e `LeonardoBuso`.
 
 ## 2) Contribuição individual, por pessoa
 
