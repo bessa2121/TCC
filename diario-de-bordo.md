@@ -1,4 +1,4 @@
-# Diário de Bordo – versão honesta e detalhada
+# Diário de Bordo - Gerado por COPILOT com dados dos repositórios
 
 Este documento foi elaborado com base no que é possível verificar no histórico público dos repositórios: mensagens de commit, autores dos commits, quantidade de contribuições e datas registradas. Não é um resumo de “o que todos disseram que fizeram”, e sim uma descrição do que ficou documentado e pode ser sustentado.
 
